@@ -1,0 +1,31 @@
+№2:
+name = str(input())
+age = int(input())
+print('Hello, ' , end='')
+print( name, ', with age ' , age , sep='')
+
+№3:
+n = int(input())
+print( n//60 , n % 60 , sep = '-')
+
+№4:
+f_class = int(input())
+s_class = int(input())
+t_class = int(input())
+print( 'Необходимо купить' ,  (f_class+1)//2  + (s_class+1)//2 + (t_class+1)//2 ,'парт(ы)' )
+
+№5:
+a, b, c = map(int, input() . split())
+p = (a + b + c ) / 2
+S = ( p * ( p-a ) * ( p-b ) * ( p-c ) ) ** 0.5
+ans = '{:.4}' . format (S)
+print (ans)
+
+ №6:
+a, b, c = map(int, input() . split())
+x1 = float ( 0.00 )
+x2 = float ( 0.00 )
+disc = ( -b**2) - (4 * a * c )
+x1 = (-b + (disc ** 0.5)) / (2 * a )
+x2 = (-b - (disc ** 0.5)) / (2 * a )
+print( min( x1 , x2) , max( x1 , x2 ) )
